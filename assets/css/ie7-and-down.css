@@ -1,0 +1,41 @@
+/* 
+IE 7 and down styling
+*/
+/*to combat retina double size logo*/
+a.navbar-brand {
+    width: 97px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 97px 120px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/cis-lg-v2@2x.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/cis-lg-v2@2x.jpg', sizingMethod='scale')";
+    background-image: url('../img/cis-ie7.jpg');
+    
+}
+.banner{position: absolute; top: 30;/*z-index: 1000;*/ z-index: 1029;padding-bottom:20px;}
+span.strapline { float: right; text-indent: -9999px; background-image: url("../img/strapline-lg.png"); width: 120px; height: 15px; background-repeat: no-repeat; background-size: 120px 15px ; }
+span.strapline { float: right; text-indent: 0px; background-image: none; color: yellow; font-size: 10px; }
+.top10 .search-form{display: none;}
+.navbar-nav{margin-left: 0px !important;}
+.topBanner ul.nav-pills {
+    padding-left: 0px !important;
+}
+.topBanner ul.social-icons li {
+    float: left;
+    list-style: none;
+    margin-right: 4px;
+    width: 26px;
+    height: 26px;
+}
+.topBanner ul.social-icons li a{border: none; width: 26px; height: 26px;display:block;}
+.topBanner ul.social-icons{display: block; border: none; }
+/*.iesoc{width: 200px; height: 40px; display: block; border: none;}*/
+.navbar-nav li.active.menu-home a, .navbar-nav li.menu-home a {
+    background: url("../img/home1.png") no-repeat scroll center 46% rgba(0, 0, 0, 0);
+    text-indent: -9999px;
+    display: block;
+    width: 30px; height: 20px;border: none;
+}
+.content,.row,.col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12,.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-10,.col-sm-11,.col-sm-12,.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12,.input-group{box-sizing:border-box;*behavior:url("/clients/cis/assets/js/boxsizing.htc")}
+/*.navbar-nav{width: 100%; display:block;}*/
+/**:before, *:after {box-sizing:border-box;*behavior:url("/clients/cis/assets/js/boxsizing.htc");}*/

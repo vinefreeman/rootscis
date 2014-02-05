@@ -1,0 +1,16 @@
+/* 
+IE 8 and down styling
+*/
+/*to combat retina double size logo*/
+a.navbar-brand {
+    width: 97px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 97px 120px;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/cis-lg-v2@2x.jpg', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/cis-lg-v2@2x.jpg', sizingMethod='scale')";
+    background-image: url('../img/cis-ie7.jpg');
+   
+}
+.banner{/*z-index: 1000;*/margin-top: 40px;}
+span.strapline { float: right; text-indent: -9999px; background-image: url("../img/strapline-lg.png"); width: 240px; height: 30px; background-repeat: no-repeat; background-size: 240px 30px ; }
