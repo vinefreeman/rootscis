@@ -6,7 +6,7 @@
                 
                 <ul id="menu-header-menu" class="nav nav-pills">
                   <!-- <li class="menu-location"><a href="<?php // echo get_option('home') ?>/contact/">Location</a></li> -->
-                  <li class="menu-login"><a href="http://ez.cis-security.co.uk/Logon.aspx" class="btn btn-sm login">Login</a></li>
+                  <li class="menu-login"><a href="http://ez.cis-security.co.uk/Logon.aspx" onclick="_gaq.push(['_trackEvent','Staff EZ Login','ez.cis-security.co.uk'])" class="btn btn-sm login">Login</a></li>
                 </ul>  
                 <?php
                  //wp_nav_menu(array('menu' => 'Header Menu', 'menu_class' => 'nav nav-pills'));
@@ -29,7 +29,7 @@
   </div>
 <header class="banner navbar" role="banner"><!--  was navbar-static-top -->
     <div class="container">
-      <a href="http://ez.cis-security.co.uk/Logon.aspx" class="btn btn-sm login visible-xs" style="float: left; width: 46px; margin: 5px 0 0 40px; padding: 2px 0; color: #918F23; border: 1px solid #7E791D; ">Login</a>
+      <a href="http://ez.cis-security.co.uk/Logon.aspx" onclick="_gaq.push(['_trackEvent','Staff EZ Login Mobile','ez.cis-security.co.uk'])" class="btn btn-sm login visible-xs" style="float: left; width: 46px; margin: 5px 0 0 40px; padding: 2px 0; color: #918F23; border: 1px solid #7E791D; ">Login</a>
       <a class="mob-contact visible-xs" href="#sch">Search</a>
       <a class="navbar-brand hidden-xs" href="<?php echo home_url(); ?>/"><?php bloginfo('description'); ?></a><!-- cis revison1 removed shadow class -->
       <span class="strapline hidden-xs">Passion. Determination. Leadership</span>

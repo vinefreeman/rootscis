@@ -48,7 +48,7 @@
                         if ( ! empty( $ref )){ echo "<span class='badge'>Ref: " . $ref . "</span>" ;}
                        
                         // job details         
-                        if ( ! empty( $client )){ echo "Client/Location: <strong>" . $client . "</strong><br />" ;}
+                        if ( ! empty( $client )){ echo "Location: <strong>" . $client . "</strong><br />" ;}
                         if ( ! empty( $pay )){ echo "Pay: <strong>" . $pay . "</strong><br />" ;}
                         
                         if ( ! empty( $shift )){ echo "Shift Information: <strong>" . $shift . "</strong>" ;}
