@@ -5,16 +5,33 @@
 				<h3 class="ontwitter yellow">CIS Security on Twitter</h3>
 				<?php get_template_part('templates/foottweet'); ?>
 			</div>	
-		    <div class="col-lg-4 col-md-4 col-sm-4">
+		    <div class="col-lg-4 col-md-4 col-sm-4 siatextbox">
 		    	<!--<h3 class="lblue intouch clearfix">Stay in touch</h3>
 		    	<div class="socialMiddle">
 		    	<?php // get_template_part('templates/social'); ?>-->
 		    	<a href="http://www.sia.homeoffice.gov.uk/Pages/acs-roac.aspx?all" target="_blank" class="siahome" title="SIA - More...">SIA</a>
+		    	<?php dynamic_sidebar('under-sia'); ?>
+		    	
 		    </div>
 		    	<div id="sch" class="clearfix"></div>
 		      <?php dynamic_sidebar('sidebar-footer'); ?>
 		    </div>
 		</div>
+		<!-- banner image or area underneath tweet -->
+		<?php  
+		/* 
+		show sidebar from widgets on home page only
+		*/
+		if (is_front_page()) {
+		 ?>
+		 <div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<?php dynamic_sidebar('banner'); ?>
+				</div>
+			</div>
+		</div>
+		<?php } ?>	
 		<div class="row visible-xs">
 			<div class="col-xs-12 footsearch">
 				<?php get_template_part('templates/searchform'); ?>
