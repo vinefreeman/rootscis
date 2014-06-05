@@ -280,8 +280,12 @@ a.carousel-control{text-decoration: none}
 /* ==========================================================================
    Footer
    ========================================================================== */
+/*SIA logo & text home page*/
+.siatextbox .textwidget p{padding-top: 10px;}
+.siahome{width:65px; height:76px; text-indent: -9999px; background: transparent url("../img/sia-logo.jpg") no-repeat top left; float: left; margin-right: 20px; -webkit-border-radius: 5px;
+-moz-border-radius: 5px;border-radius: 5px; overflow: hidden;}
 
-.siatextbox .textwidget p{clear: both; float: right; padding-top: 10px;}
+
 
 .modal-header{background-color: #eee; -webkit-border-top-left-radius: 6px;
 -webkit-border-top-right-radius: 6px;
@@ -317,8 +321,6 @@ span.sep{display: block; padding: 4px 0; margin: 10px 0; border-bottom: 1px dott
 a.btn.phone{padding-left: 0; color: #5089b1;}
 h2.entry-title{font-size: 22px;}
 .main h2{font-size: 22px;}
-.siahome{width:65px; height:76px; text-indent: -9999px; background: transparent url("../img/sia-logo.jpg") no-repeat top left; float: right; -webkit-border-radius: 5px;
--moz-border-radius: 5px;border-radius: 5px; overflow: hidden;}
 
 
 /*==================
